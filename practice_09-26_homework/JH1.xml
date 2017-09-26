@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title></doc-title>
+        <original-writer ID="SJ">SHirley Jackson</original-writer>
+        <remixer ID="JH1">Jet Hardie</remixer>
+    </metadata>
+    <original>
+        <p>The children assembled first, of course. School was recently over for the summer,<expand playREF1> and the feeling of liberty sat uneasily on most of them;
+            </expand>
+            
+            they tended to gather together quietly for a while before they broke into boisterous play. and their talk was still of the classroom and the teacher, of books and reprimands.
+            Bobby Martin had already stuffed his pockets full of stones, and the other boys soon followed his example, selecting the smoothest and roundest stones; 
+            Bobby and Harry Jones and Dickie Delacroix-- the villagers pronounced this name "Dellacroy"--eventually made a great pile of stones in one corner of the square and guarded it against the raids of the other boys.
+            The girls stood aside, talking among themselves, looking over their shoulders<question playREF1=>at rolled in the dust or clung to the hands of their older brothers or sisters.</question> </p>
+           
+        <p>Soon the men began to gather. surveying their own children, speaking of planting and rain, tractors and taxes.
+            They stood together, away from the pile of stones in the corner, and their jokes were quiet and they smiled rather than laughed<expand palyREF2></expand>.
+            <analysis palyREF1>The women, wearing faded house dresses and sweaters, came shortly after their menfolk.</analysis>
+            They greeted one another and exchanged bits of gossip as they went to join their husbands. 
+            Soon the women, standing by their husbands, began to call to their children, and the children came <transform playREF1=>reluctantly,> having to be called four or five times.</transform>
+            <analysis playREF2> Bobby Martin ducked under his mother's grasping hand and ran, laughing, back to the pile of stones.
+                His father spoke up sharply, and Bobby came quickly and took his place between his father and his oldest brother.</analysis></p>
+        
+        <p>The lottery was conducted--as were the square dances, the teen club, the Halloween program--by Mr. Summers. who had time and energy to devote to civic activities.<expand playREF3></expand>
+            He was a round-faced, jovial man and he ran the coal business, and people were sorry for him. because he had no children and his wife was a scold.
+            When he arrived in the square, carrying the black wooden box, there was a murmur of conversation among the villagers, and he waved and called.<expand playREF4=></expandREF>
+            "Little late today, folks." The postmaster, Mr. Graves, followed him, carrying a three- legged stool, and the stool was put in the center of the square 
+            and Mr. Summers set the black box down on it. The villagers kept their distance, leaving a space between themselves and the stool.<expand playREF5=></expand> and when Mr. Summers said,
+            "Some of you fellows want to give me a hand?" there was a hesitation before two men. Mr. Martin and his oldest son, Baxter. came forward to hold the box steady on the stool
+            while Mr. Summers stirred up the papers inside it.<expand playREF6=></expand></p>
+        
+    </original>
+    <play>
+        <analysis playREF1="Thea author appears to be creating an environment in a baren farming community, possibly during the depression with connections to the dust in paraghraph 1 and the faded nature of the wives dresses.The author is also clearly painting an imagie of male 
+            superiority through the woemn "following their menfolk and the boys playing biousteruously while the girls "chat"."></analysis>
+        <analysis playREF2= " Male superiority illistrated again."></analysis>
+        <expand playREF2="the typical polite rivelry between fathers about the heirachy of thier sons"></expand>
+        <expand playREF3="The sole individual with any remaining personality after the chrash trying to blow the fog out of his fellow citizens' minds."></expand>
+        <expand playREF4="What would it be this time? Maybe there will be another coupon for a trip for two to the North East like the Jacksons got two moths ago, mst have been lovely there. They haven't come back."</expand>
+        <expand playREF5="Trying to sahddow their eagerness. This could be their ticket out of this mess"></expand>
+        <expand playREF6="And there is was right before him, Baxter had seen it. The new that would change the lives of everyone in the town,for better or worse he couldnt descifer over the drumming of his heart in his ears."></expand>
+        <question playREF1="What are they looking at that has rolled in dust - the boyds I assume?"</question>
+        <transform playREF1="quickly because they needed no reminder of how hard life had been for them recently with their dads not be able to work on anything besides the bottle."></transform>
+    </play>
+</remiXML>
